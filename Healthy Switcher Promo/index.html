@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS'in CDN bağlantısı -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Dışarıda CSS yerine Tailwind sınıflarını kullanalım */
+    </style>
+</head>
+<body>
+    <!-- Tailwind CSS sınıflarıyla div'i güncelle -->
+    <div class="bg-gradient-to-r from-gray-700 to-gray-900 bg-opacity-50 bg-cover bg-center w-screen h-screen" style="background-image: url('the\ fruit\ bowl.png');">
+        <!-- İçerik buraya gelebilir -->
+        <div class="flex flex-wrap justify-center">
+            <div class="flex justify-around bg-opacity-0 bg-white p-4 border-b-2 border-opacity-10" style="width: 1440px; height: 55px; top: 89px;  opacity: 0.1px;">
+                <div class="flex gap-3">
+                    <img class="w-6 h-5" src="on of button.png" alt="">
+                    <h2  class="menu-item text-green-500 font-semibold mr-4">HEALTHY SWITCHER</h2>
+                </div>
+                <div class="flex">
+                    <ul class="flex justify-center">
+                        <li><a href="#" class="menu-item text-green-500 font-semibold mr-4">Menu</a></li>
+                        <li><a href="#" class="menu-item text-black font-semibold mr-4">Recipes</a></li>
+                        <li><a href="#" class="menu-item text-black font-semibold mr-4">Chefs</a></li>
+                        <li><a href="#" class="menu-item text-black font-semibold">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mb-3 mt-16 flex font-Helvetica text-6xl leading-20 tracking-widest text-white text-center">Your favourite food 
+                delivered<br> hot & fresh</p>
+            <p class="flex font-Helvetica text-base font-normal text-white text-opacity-70 leading-6 tracking-tighter text-center">
+                HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping & 
+                marinating, so <br>you can cook a fresh homemade dinner in just 15 minutes.
+            </p>
+        </div>
+        <div class="ml-44">
+            <button class="rounded-full mt-10 ml-96 bg-green-500 font-Helvetica text-15 font-bold leading-21.78 tracking-0.2 text-center" style="height: 50px; width: 140px;" >Order Now</button>
+        </div>
+        <div class="flex mt-16 ml-80 gap-16">
+             <div class="flex flex-col items-center">
+            <img class="flex h-5 w-5" src="oclock.png" alt="">
+            <p class="flex text-16 font-normal leading-30 text-center text-white">Today 10:00 am - 7:00 pm</p>
+            <p class="flex text-14 font-normal leading-60 text-center opacity-50">Working hours</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="flex h-5 w-5" src="pleace.png" alt="">
+            <p class="font-Helvetica text-16 font-normal leading-30 text-center text-white">Today 10:00 am - 7:00 pm</p>
+            <p class="font-Helvetica text-14 font-normal leading-60 text-center opacity-50">Working hours</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="flex h-5 w-5" src="phone.png" alt="">
+            <p class="font-Helvetica text-16 font-normal leading-30 text-center text-white">Today 10:00 am - 7:00 pm</p>
+            <p class="font-Helvetica text-14 font-normal leading-60 text-center opacity-50">Working hours</p>
+        </div>
+        </div>
+       
+    </div>
+    <div></div>
+</body>
+</html>
